@@ -1,0 +1,206 @@
+---
+
+---
+
+<section class="services-section">
+	<div class="container">
+		<header class="services-header">
+			<h2>Our Services</h2>
+			<p>
+				We provide professional legal services in Noida and Greater
+				Noida, including criminal defense, cyber law, corporate
+				disputes, consumer cases, and court marriage registration.
+			</p>
+		</header>
+
+		<div class="services-grid" role="list">
+			<article class="service-card card-red" role="listitem">
+				<h3>Criminal Lawyer in Noida</h3>
+				<p>
+					Legal representation for FIR matters, bail and anticipatory
+					bail, police investigations, and court trials. Strategic
+					defense to protect your rights at every stage.
+				</p>
+			</article>
+
+			<article class="service-card card-blue" role="listitem">
+				<h3>Civil Lawyer in Noida</h3>
+				<p>
+					Handling property disputes, recovery suits, injunctions,
+					contract disputes, and family-related civil matters with
+					structured legal strategy.
+				</p>
+			</article>
+
+			<article class="service-card card-yellow" role="listitem">
+				<h3>Cyber Crime Lawyer in Noida</h3>
+				<p>
+					Legal assistance in cyber fraud, online harassment, data
+					theft, financial scams, and IT Act cases. Guidance for
+					filing cyber complaints and defense.
+				</p>
+			</article>
+
+			<article class="service-card card-green" role="listitem">
+				<h3>Corporate &amp; Industrial Disputes Lawyer</h3>
+				<p>
+					Advisory and litigation support in commercial disputes,
+					partnership conflicts, industrial matters, and contract
+					enforcement.
+				</p>
+			</article>
+
+			<article class="service-card card-purple" role="listitem">
+				<h3>Consumer Protection &amp; Dispute Lawyer</h3>
+				<p>
+					Representation in consumer court cases involving defective
+					products, service deficiency, refund claims, and
+					compensation matters.
+				</p>
+			</article>
+
+			<article class="service-card card-brown" role="listitem">
+				<h3>Court Marriage Registration in Noida</h3>
+				<p>
+					Assistance with documentation, application filing, and
+					registration under Special Marriage Act and Hindu Marriage
+					Act at local registrar offices.
+				</p>
+			</article>
+		</div>
+	</div>
+</section>
+
+<style>
+	:root {
+		--muted: #475569;
+		--card-bg: #ffffff;
+	}
+
+	.services-section {
+		padding: 3rem 1rem;
+		background: linear-gradient(180deg, #ffffff 0%, #fbfdff 100%);
+	}
+
+	.container {
+		margin: 0 auto;
+	}
+
+	.services-header {
+		text-align: left;
+		margin-bottom: 1.5rem;
+	}
+
+	.services-header h2 {
+		font-size: 2rem;
+		margin: 0 0 0.5rem 0;
+		color: #0f172a;
+		font-weight: 900;
+		text-align: center;
+	}
+
+	.services-header p {
+		margin: 0;
+		color: var(--muted);
+		text-align: center;
+	}
+
+	.services-grid {
+		display: grid;
+		gap: 2.5rem;
+		grid-template-columns: repeat(3, 1fr);
+	}
+
+	.service-card {
+		background: var(--card-bg);
+		padding: 1.25rem;
+		border-radius: 10px;
+		box-shadow: 0 6px 18px rgba(2, 6, 23, 0.06);
+		border-left: 6px solid transparent;
+		min-height: 160px;
+		display: flex;
+		flex-direction: column;
+		gap: 0.5rem;
+		transition: all 240ms ease;
+		cursor: pointer;
+	}
+
+	.service-card:hover {
+		transform: translateY(-4px);
+		box-shadow: 0 12px 28px rgba(2, 6, 23, 0.12);
+	}
+
+	.service-card h3 {
+		font-size: 1.05rem;
+		margin: 0;
+		color: #0f172a;
+		font-weight: 700;
+	}
+
+	.service-card p {
+		margin: 0;
+		color: var(--muted);
+		font-size: 0.95rem;
+		line-height: 1.45;
+	}
+
+	/* color accents */
+	.card-red {
+		border-left-color: #ef4444;
+	}
+	.card-red:hover {
+		box-shadow: 0 12px 28px rgba(239, 68, 68, 0.15);
+	}
+
+	.card-blue {
+		border-left-color: #3b82f6;
+	}
+	.card-blue:hover {
+		box-shadow: 0 12px 28px rgba(59, 130, 246, 0.15);
+	}
+
+	.card-yellow {
+		border-left-color: #f59e0b;
+	}
+	.card-yellow:hover {
+		box-shadow: 0 12px 28px rgba(245, 158, 11, 0.15);
+	}
+
+	.card-green {
+		border-left-color: #10b981;
+	}
+	.card-green:hover {
+		box-shadow: 0 12px 28px rgba(16, 185, 129, 0.15);
+	}
+
+	.card-purple {
+		border-left-color: #8b5cf6;
+	}
+	.card-purple:hover {
+		box-shadow: 0 12px 28px rgba(139, 92, 246, 0.15);
+	}
+
+	.card-brown {
+		border-left-color: #a16207;
+	}
+	.card-brown:hover {
+		box-shadow: 0 12px 28px rgba(161, 98, 7, 0.15);
+	}
+
+	/* Responsive */
+	@media (max-width: 992px) {
+		.services-grid {
+			grid-template-columns: repeat(2, 1fr);
+			gap: 1rem;
+		}
+	}
+
+	@media (max-width: 640px) {
+		.services-grid {
+			grid-template-columns: 1fr;
+		}
+		.services-header h2 {
+			font-size: 1.5rem;
+		}
+	}
+</style>
